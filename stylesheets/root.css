@@ -1,0 +1,21 @@
+/* ------------------------------------------------------------------------------------------------------------------------------
+ROOT
+--------------------------------------------------------------------------------------------------------------------------------*/
+
+:root {
+  --container-width: 1440px;
+  --container-padding: 20px;
+  --font-karla: "Karla", sans-serif;
+  --font-main: "Roboto", sans-serif;
+  --font-footer: "Helvetica", sans-serif;
+  --font-merch: "PublicSans", sans-serif;
+  --font-unbounded: "Unbounded", sans-serif;
+  --black: #000000;
+  --white: #ffffff;
+  --pink: #ff0481;
+  --pinklight: #de9180;
+  --grey: #7c7c7c;
+  --scrollbar: var(--grey);
+  --scrollbar-track: var(--grey);
+  --scrollbar-thumb: var(--pink);
+}

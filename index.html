@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="ru" xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Main</title>
+    <link rel="icon" href="favicon.ico" type="image/x-icon" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body id="main">
+    <div class="overlay" id="overlay-blur"></div>
+    <div class="wrapper">
+      <main class="page">
+        <div class="container">
+          <div class="page-grid">
+            <!-- Сайдбар -->
+            <aside class="sidebar">
+              <div class="sidebar_wrap">
+                <div class="sidebar_desktop">
+                  <nav id="desktop-menu" class="sidebar_menu_desktop">
+                    <ul class="menu">
+                      <li><a href="about.html">О нас</a></li>
+                      <li><a href="artists.html">Артисты</a></li>
+                      <li><a href="merch.html">Мерч</a></li>
+                      <li><a href="events.html">Билеты</a></li>
+                      <li>
+                        <a
+                          taget="_blank"
+                          href="https://davlourie.github.io/raveen-2/"
+                          >Россия</a
+                        >
+                      </li>
+                    </ul>
+                  </nav>
+                </div>
+
+                <div class="sidebar_sticky">
+                  <div class="sidebar_header">
+                    <button id="burger" class="burger">
+                      <span></span>
+                    </button>
+                  </div>
+
+                  <div class="sidebar_logo">
+                    <a href="index.html" class="sidebar_logo_link">
+                      <img
+                        class="img-responsive"
+                        src="./images/logo-header.svg"
+                        alt="Logo header image"
+                      />
+                    </a>
+                  </div>
+
+                  <div class="sidebar_context">
+                    <strong
+                      >чувствуй,<br />
+                      а не слушай музыку</strong
+                    >
+                    <small>since 2025</small>
+                  </div>
+
+                  <div class="sidebar_menu" id="menu-body">
+                    <button id="menu-close" class="sidebar_menu_close">
+                      <span></span>
+                    </button>
+
+                    <nav class="sidebar_menu_navigation">
+                      <ul class="menu">
+                        <li><a href="about.html">О нас</a></li>
+                        <li><a href="artists.html">Артисты</a></li>
+                        <li><a href="merch.html">Мерч</a></li>
+                        <li><a href="events.html">Билеты</a></li>
+                        <li>
+                          <a
+                            taget="_blank"
+                            href="https://davlourie.github.io/raveen-2/"
+                            >Россия</a
+                          >
+                        </li>
+                      </ul>
+                    </nav>
+                  </div>
+                </div>
+              </div>
+            </aside>
+
+            <!-- Контент -->
+            <section class="content vertical-border">
+              <!-- 1 Статья "Приветствие" -->
+              <article class="main-post horizontal-border">
+                <div class="main-post_header">
+                  <h1>
+                    <span class="extra-bold">RaveEn</span> —
+                    <span class="accent">первое</span> объединение <br />
+                    анонимных <br />
+                    экспериментальных <br />
+                    музыкантов
+                  </h1>
+
+                  <a href="#anchor" class="main-post_listdown">
+                    <div class="main-post_listdown_image">
+                      <img
+                        class="img-responsive"
+                        src="./images/to-list.svg"
+                        alt="List down"
+                      />
+                    </div>
+                    <div class="main-post_listdown_text">
+                      <span>листай</span>
+                    </div>
+                  </a>
+                </div>
+              </article>
+
+              <!-- 2 Статья "Пост 1" -->
+              <article class="main-post horizontal-border" id="anchor">
+                <!-- 1 -->
+                <div class="row gx-20 mb-60 mb-sm-0">
+                  <div class="column-67">
+                    <div class="main-post_image post-1">
+                      <img
+                        class="img-responsive"
+                        src="./images/main/post-1.png"
+                        alt="1-я картинка 2-го поста"
+                      />
+                      <div class="post-1_caption">
+                        <span
+                          >Мы прячемся <br />
+                          тут</span
+                        >
+                      </div>
+                    </div>
+                  </div>
+                  <div class="column-33">
+                    <div class="main-post_content">
+                      <div class="content-top">
+                        <h3>Наш офис</h3>
+                        <p>
+                          Мы базируемся в Берлинес 2022 года. Отсюда нам удобнее
+                          дотягиваться до разных уголков планеты и доносить
+                          сообщения наших артистов еще большему количеству
+                          слушателей. А еще мы просто любим этот город.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- 2 -->
+                <div class="row gx-20">
+                  <div class="column-57">
+                    <div class="main-post_content">
+                      <div class="content-top">
+                        <h3>Что мы делаем?</h3>
+                        <p>
+                          Мы — независимое анонимное сообщество, созданное для
+                          поддержки радикальных, маргинализованных и неформатных
+                          голосов. Наша музыка — такая же. Поэтому иногда мы
+                          играем ее на цепях, бутылках, столеи на всем, что
+                          найдем на улице. Пару раз даже на кусочках берлинской
+                          стены умудрились сыграть. Так что — прежде чем
+                          послушать, вслушайтесь. Подумайте как мы это сделали и
+                          на что именно намекали?
+                        </p>
+                      </div>
+                      <a href="about.html" class="btn">Подробнее</a>
+                    </div>
+                  </div>
+                  <div class="column-43">
+                    <div class="main-post_trans">
+                      <h3>Что мы делаем?</h3>
+                    </div>
+
+                    <div class="main-post_image post-11">
+                      <img
+                        class="img-responsive"
+                        src="./images/main/post-11.png"
+                        alt="2-я картинка 1-го поста"
+                      />
+                      <div class="post-11_caption">
+                        <span>А тут работаем <br />со звуком</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </article>
+
+              <!-- 3 Статья "Пост 2" -->
+              <article class="main-post horizontal-border">
+                <!-- 1 -->
+                <div class="row gx-45">
+                  <div class="column-46">
+                    <div class="main-post_trans">
+                      <h3>Наши <br />артисты</h3>
+                    </div>
+
+                    <div class="main-post_image post-2">
+                      <img
+                        class="img-responsive"
+                        src="./images/main/post-2.png"
+                        alt="1-я картинка 2-го поста"
+                      />
+                      <div class="post-2_caption">
+                        <span
+                          >Увидите такую <br />
+                          маску — <br />бегите это мы</span
+                        >
+                      </div>
+                    </div>
+                  </div>
+                  <div class="column-54">
+                    <div class="main-post_content">
+                      <div class="content-top">
+                        <h3>Наши <br />артисты</h3>
+                        <p>
+                          Наши музыканты и активисты предпочитают сохранять
+                          анонимность. Однако есть особо смелые творцы, которые
+                          раскрывают свою личность, где бы они не находились —
+                          молодые демократии или авторитарные режимы — вы
+                          найдете музыку о своей стране и контексте.
+                        </p>
+                      </div>
+                      <a href="artists.html" class="btn">Подробнее</a>
+                    </div>
+                  </div>
+                </div>
+              </article>
+
+              <article class="main-post">
+                <div class="main-post_lays">
+                  <h2>Что еще?</h2>
+                </div>
+
+                <div class="main-post_mouses">
+                  <a href="artists.html" class="mouse"><span>артисты</span></a>
+
+                  <a
+                    target="_blank"
+                    href="https://davlourie.github.io/raveen2/"
+                    class="mouse"
+                    ><span>рейв — завтра</span></a
+                  >
+
+                  <a href="merch.html" class="mouse"
+                    ><span>мерч (скоро)</span></a
+                  >
+                </div>
+              </article>
+            </section>
+          </div>
+        </div>
+      </main>
+      <footer class="footer">
+        <div class="container">
+          <div class="page-grid">
+            <div class="footer-left">
+              <a href="index.html" class="footer-logo">
+                <img
+                  class="img-responsive"
+                  src="./images/logo-footer.svg"
+                  alt="Logo in footer"
+                />
+              </a>
+            </div>
+
+            <div class="footer-right">
+              <div class="footer-columns">
+                <div class="footer-columns_item">
+                  <strong>Слушателям</strong>
+                  <ul>
+                    <li><a href="events.html">Ивенты</a></li>
+                    <li>
+                      <a
+                        target="_blank"
+                        href="https://davlourie.github.io/raveen2/"
+                        >Рейв 28.06</a
+                      >
+                    </li>
+                    <li><a href="artists.html">Артисты</a></li>
+                  </ul>
+                </div>
+
+                <div class="footer-columns_item">
+                  <strong>О нас</strong>
+                  <ul>
+                    <li><a href="about.html">Кто мы ?</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/animejs@3.2.1/lib/anime.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js"></script>
+
+    <script src="./javascript/main.js"></script>
+    <script src="./javascript/effects.js"></script>
+  </body>
+</html>

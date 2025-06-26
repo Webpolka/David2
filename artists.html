@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="ru" xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Artists</title>
+    <link rel="icon" href="favicon.ico" type="image/x-icon" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body id="artists">
+    <div class="overlay" id="overlay-blur"></div>
+    <div class="wrapper">
+      <main class="page">
+        <div class="container">
+          <div class="page-grid">
+            <!-- Сайдбар -->
+            <aside class="sidebar">
+              <div class="sidebar_wrap">
+                <div class="sidebar_desktop">
+                  <nav id="desktop-menu" class="sidebar_menu_desktop">
+                    <ul class="menu">
+                      <li><a href="about.html">О нас</a></li>
+                      <li><a href="artists.html">Артисты</a></li>
+                      <li><a href="merch.html">Мерч</a></li>
+                      <li><a href="events.html">Билеты</a></li>
+                      <li>
+                        <a
+                          taget="_blank"
+                          href="https://davlourie.github.io/raveen-2/"
+                          >Россия</a
+                        >
+                      </li>
+                    </ul>
+                  </nav>
+                </div>
+
+                <div class="sidebar_sticky">
+                  <div class="sidebar_header">
+                    <button id="burger" class="burger">
+                      <span></span>
+                    </button>
+                  </div>
+
+                  <div class="sidebar_logo">
+                    <a href="index.html" class="sidebar_logo_link">
+                      <img
+                        class="img-responsive"
+                        src="./images/logo-header.svg"
+                        alt="Logo header image"
+                      />
+                    </a>
+                  </div>
+
+                  <div class="sidebar_context">
+                    <strong
+                      >чувствуй,<br />
+                      а не слушай музыку</strong
+                    >
+                    <small>since 2025</small>
+                  </div>
+
+                  <div class="sidebar_menu" id="menu-body">
+                    <button id="menu-close" class="sidebar_menu_close">
+                      <span></span>
+                    </button>
+
+                    <nav class="sidebar_menu_navigation">
+                      <ul class="menu">
+                        <li><a href="about.html">О нас</a></li>
+                        <li><a href="artists.html">Артисты</a></li>
+                        <li><a href="merch.html">Мерч</a></li>
+                        <li><a href="events.html">Билеты</a></li>
+                        <li>
+                          <a
+                            taget="_blank"
+                            href="https://davlourie.github.io/raveen-2/"
+                            >Россия</a
+                          >
+                        </li>
+                      </ul>
+                    </nav>
+                  </div>
+                </div>
+              </div>
+            </aside>
+
+            <!-- Контент -->
+            <section class="content vertical-border">
+              <!-- Страница с артистами -->
+              <article class="artists-post horizontal-border">
+                <div class="artists-post_header">
+                  <h1>Артисты</h1>
+                </div>
+
+                <div class="artists-post_masonry">
+                  <!-- Десктопная масонри -->
+                  <ul class="masonry-container" id="masonry-container">
+                    <!-- Column 1 -->
+                    <li class="column column-1">
+                      <div class="item item-1">
+                        <img
+                          src="./images/artists/post-1.png"
+                          alt="image"
+                          class="img-responsive"
+                        />
+                        <div class="item-before item-1-before"></div>
+                        <div class="item-mask">
+                          <div class="item-mask_gradient"></div>
+                          <div class="item-mask_box">
+                            <div class="item-mask_town">Berlin,</div>
+                            <div class="item-mask_country">Deutchland</div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="item item-6">
+                        <img
+                          src="./images/artists/post-4.png"
+                          alt="Image"
+                          class="img-responsive"
+                        />
+                        <div class="item-before item-6-before"></div>
+                        <div class="item-mask">
+                          <div class="item-mask_gradient"></div>
+                          <div class="item-mask_box">
+                            <div class="item-mask_town">Москва,</div>
+                            <div class="item-mask_country">Россия</div>
+                          </div>
+                        </div>
+                      </div>
+                    </li>
+                    <!-- Column 2 -->
+                    <li class="column column-2">
+                      <div class="item-text item-2">
+                        <p>
+                          Наши артист_ки базируются в разных городах и странах,
+                          у каждого своя история. Наведи на исполнителя и ты
+                          узнаешь откуда он_а. Их музыку ты найдешь на любой
+                          музыкальной платформе — даже с пиратским контентом.
+                        </p>
+                      </div>
+                      <div class="item item-4">
+                        <img
+                          src="./images/artists/post-3.png"
+                          alt="Image"
+                          class="img-responsive"
+                        />
+                        <div class="item-before item-4-before"></div>
+                        <div class="item-mask">
+                          <div class="item-mask_gradient"></div>
+                          <div class="item-mask_box">
+                            <div class="item-mask_town">Berlin,</div>
+                            <div class="item-mask_country">Deutchland</div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="item-text item-7">
+                        <p>
+                          Мы гордимся каждым, кто с нами. Не потому что это
+                          «наши». А потому что они — сами по себе. Мы просто
+                          даём пространство. Остальное — делают они.
+                        </p>
+                      </div>
+                    </li>
+                    <!-- Column 3 -->
+                    <li class="column column-3">
+                      <div class="item-group">
+                        <div class="item item-3">
+                          <img
+                            src="./images/artists/post-2.png"
+                            alt="Image"
+                            class="img-responsive"
+                          />
+                          <div class="item-before item-3-before"></div>
+                          <div class="item-mask">
+                            <div class="item-mask_gradient"></div>
+                            <div class="item-mask_box">
+                              <div class="item-mask_town">Haag,</div>
+                              <div class="item-mask_country">Nederland</div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="item-text item-5">
+                          <p>
+                            Наши артисты — это не сцена. Это напряжение,
+                            сопротивление, необходимость звучать, когда никто не
+                            зовёт. Это не те, кого позвали на фестиваль. Это те,
+                            кто пишет ночью, на чужом wi-fi, в комнатаx с
+                            бетонными стенами и окнами, заклеенными скотчем. Они
+                            не делают музыку, чтобы понравиться. Они делают ее,
+                            чтобы выжить. Это звук боли, смеха, ярости, тишины,
+                            одиночества и возвращения.
+                          </p>
+                        </div>
+                      </div>
+                      <div class="item item-8">
+                        <img
+                          src="./images/artists/post-5.png"
+                          alt="Image"
+                          class="img-responsive"
+                        />
+                        <div class="item-before item-8-before"></div>
+                        <div class="item-mask">
+                          <div class="item-mask_gradient"></div>
+                          <div class="item-mask_box">
+                            <div class="item-mask_town">Auckland,</div>
+                            <div class="item-mask_country">New Zealand</div>
+                          </div>
+                        </div>
+                      </div>
+                    </li>
+                  </ul>
+
+                  <!-- Мобильная масонри -->
+                  <div id="mobile-container">
+                    <div class="item-text item-2">
+                      <p>
+                        Наши артист_ки базируются в разных городах и странах, у
+                        каждого своя история. Наведи на исполнителя и ты узнаешь
+                        откуда он_а. Их музыку ты найдешь на любой музыкальной
+                        платформе — даже с пиратским контентом.
+                      </p>
+                    </div>
+
+                    <div class="item item-1" data-aos="fade">
+                      <img
+                        src="./images/artists/post-1.png"
+                        alt="image"
+                        class="img-responsive"
+                      />
+                      <div class="item-mask">
+                        <div class="item-mask_gradient"></div>
+                        <div class="item-mask_box">
+                          <div class="item-mask_town">Berlin,</div>
+                          <div class="item-mask_country">Deutchland</div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="item-text item-5" data-aos="fade">
+                      <p>
+                        Наши артисты — это не сцена. Это напряжение,
+                        сопротивление, необходимость звучать, когда никто не
+                        зовёт. Это не те, кого позвали на фестиваль. Это те, кто
+                        пишет ночью, на чужом wi-fi, в комнатаx с бетонными
+                        стенами и окнами, заклеенными скотчем. Они не делают
+                        музыку, чтобы понравиться. Они делают ее, чтобы выжить.
+                        Это звук боли, смеха, ярости, тишины, одиночества и
+                        возвращения.
+                      </p>
+                    </div>
+
+                    <div class="item item-3" data-aos="fade">
+                      <img
+                        src="./images/artists/post-2.png"
+                        alt="Image"
+                        class="img-responsive"
+                      />
+                      <div class="item-mask">
+                        <div class="item-mask_gradient"></div>
+                        <div class="item-mask_box">
+                          <div class="item-mask_town">Haag,</div>
+                          <div class="item-mask_country">Nederland</div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="item item-4" data-aos="fade">
+                      <img
+                        src="./images/artists/post-3.png"
+                        alt="Image"
+                        class="img-responsive"
+                      />
+                      <div class="item-mask">
+                        <div class="item-mask_gradient"></div>
+                        <div class="item-mask_box">
+                          <div class="item-mask_town">Berlin,</div>
+                          <div class="item-mask_country">Deutchland</div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="item-text item-7" data-aos="fade">
+                      <p>
+                        Мы гордимся каждым, кто с нами. Не потому что это
+                        «наши». А потому что они — сами по себе. Мы просто даём
+                        пространство. Остальное — делают они.
+                      </p>
+                    </div>
+
+                    <div class="item item-6" data-aos="fade">
+                      <img
+                        src="./images/artists/post-4.png"
+                        alt="Image"
+                        class="img-responsive"
+                      />
+                      <div class="item-mask">
+                        <div class="item-mask_gradient"></div>
+                        <div class="item-mask_box">
+                          <div class="item-mask_town">Москва,</div>
+                          <div class="item-mask_country">Россия</div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="item item-8" data-aos="fade">
+                      <img
+                        src="./images/artists/post-5.png"
+                        alt="Image"
+                        class="img-responsive"
+                      />
+                      <div class="item-mask">
+                        <div class="item-mask_gradient"></div>
+                        <div class="item-mask_box">
+                          <div class="item-mask_town">Auckland,</div>
+                          <div class="item-mask_country">New Zealand</div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </article>
+
+              <!-- 2 -->
+              <article class="artists-post" data-aos="fade">
+                <div class="artists-post_lays">
+                  <h2>Что еще?</h2>
+                  <div class="artists-post_box">
+                    <p>
+                      Сейчас мы стараемся<br />
+                      поддержать наших <br />артистов <br />из регионов России —
+                      <br />почитайте о них
+                      <a
+                        target="_blank"
+                        href="https://davlourie.github.io/raveen-2/"
+                        >тут</a
+                      >
+                    </p>
+                  </div>
+                </div>
+              </article>
+            </section>
+          </div>
+        </div>
+      </main>
+      <footer class="footer">
+        <div class="container">
+          <div class="page-grid">
+            <div class="footer-left">
+              <a href="index.html" class="footer-logo">
+                <img
+                  class="img-responsive"
+                  src="./images/logo-footer.svg"
+                  alt="Logo in footer"
+                />
+              </a>
+            </div>
+
+            <div class="footer-right">
+              <div class="footer-columns">
+                <div class="footer-columns_item">
+                  <strong>Слушателям</strong>
+                  <ul>
+                    <li><a href="events.html">Ивенты</a></li>
+                    <li>
+                      <a
+                        target="_blank"
+                        href="https://davlourie.github.io/raveen2/"
+                        >Рейв 28.06</a
+                      >
+                    </li>
+                    <li><a href="artists.html">Артисты</a></li>
+                  </ul>
+                </div>
+
+                <div class="footer-columns_item">
+                  <strong>О нас</strong>
+                  <ul>
+                    <li><a href="about.html">Кто мы ?</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/animejs@3.2.1/lib/anime.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js"></script>
+
+    <script src="./javascript/main.js"></script>
+    <script src="./javascript/effects.js"></script>
+  </body>
+</html>

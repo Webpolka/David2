@@ -1,0 +1,19 @@
+@charset "UTF-8";
+
+/* Шрифты */
+@import './stylesheets/fonts.css';
+
+/* Переменные */
+@import './stylesheets/root.css';
+
+/* Ресет */
+@import './stylesheets/reset.css';
+
+/* Основные стили */
+@import './stylesheets/layout.css';
+
+/* Анимация */
+@import './stylesheets/animation.css';
+
+/* Медиазапросы */
+@import './stylesheets/adaptive.css';
