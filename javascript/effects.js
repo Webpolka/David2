@@ -17,10 +17,11 @@ Bird
 -----------------------------------------------------------------------------------------------------------------------------*/
 const bird = document.getElementById("bird");
 if (bird) {
+	const birdZone0 = document.querySelector(".about-bird");
 	const birdZone1 = document.querySelector(".about-post h1");
 	const birdZone2 = document.querySelector(".masonry-grid-1");
 	const birdZone3 = document.querySelector(".masonry-grid-2");
-	const birdZoneArray = [birdZone1, birdZone2, birdZone3];
+	const birdZoneArray = [birdZone0, birdZone1, birdZone2, birdZone3];
 
 	birdZoneArray.forEach((el) => {
 		el.addEventListener("click", function () {

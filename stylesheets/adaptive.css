@@ -164,6 +164,11 @@ MEDAIQUERIES
     margin-bottom: 20px;
   }
 
+  .about-post.about-post-3 .about-bird {
+    z-index: 10;
+    right: 0;
+  }
+
   .about-post {
     padding-inline: 30px;
     padding-bottom: 0;
@@ -259,15 +264,21 @@ MEDAIQUERIES
   .about-post_masonry .masonry-item_small {
     font-size: 50px;
     padding-inline: 35px;
+    z-index: 11;
+    position: relative;
   }
 
   .about-post_masonry .masonry-item_middle {
     font-size: 42px;
     padding: 60px;
+    z-index: 11;
+    position: relative;
   }
 
   .about-post_masonry .masonry-item_big {
     font-size: 44px;
+    z-index: 11;
+    position: relative;
   }
 
   .about-post_masonry .masonry-item-block-bottom {
@@ -741,6 +752,10 @@ MEDAIQUERIES
     padding-bottom: 0;
   }
 
+  .about-post.about-post-1 {
+    padding-left: 0;
+  }
+
   .about-post.about-post-2 {
     padding-left: 0px;
   }
@@ -1104,6 +1119,10 @@ MEDAIQUERIES
     margin-bottom: 10px;
   }
 
+  .main-post_lays h2 {
+    display: block;
+  }
+
   .main-post_mouses {
     margin-bottom: 20px;
     padding-top: 35px;
@@ -1194,7 +1213,7 @@ MEDAIQUERIES
 
   .merch-post_banner p {
     padding-top: 25px;
-    font-size: 20px;
+    font-size: 17px;
     line-height: 133%;
   }
 

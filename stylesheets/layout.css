@@ -1638,7 +1638,7 @@ MAINPAGE
   justify-content: center;
   width: 100%;
   aspect-ratio: 384/401;
-  background-image: url("../images/logo-image.svg");
+  background-image: url("../images/logo.png");
   background-repeat: no-repeat;
   background-size: 100% 100%;
   background-position: center center;
@@ -1857,6 +1857,7 @@ MAINPAGE
 
 .sidebar_menu_desktop ul li a:hover {
   color: var(--pink);
+  padding-left: 10px;
 }
 
 .sidebar_menu_desktop ul li:not(:last-child) {
@@ -1905,7 +1906,7 @@ MAINPAGE
 .tovar-post_info .info_header h1 {
   font-family: var(--font-unbounded);
   font-weight: 400;
-  font-size: 53px;
+  font-size: 51px;
   line-height: 100%;
   letter-spacing: -0.06em;
   color: var(--black);
